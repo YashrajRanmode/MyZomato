@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my Zomato</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+   
+        <div class="header">
+
+           <h1 id="title">Zomato</h1> 
+
+         <div class="filters_options">
+            <div class="filter" id="Gill">Filter</div>
+            <div class="Offers" id="Gill">Offers</div>
+            <div class="Rating" id="Gill">Rating:4.5+</div>
+            <div class="Daru_Hai_ya_Nahi" id="Gill">Serves Alcohol</div>
+            <div class="opening" id="Gill">Open Now</div>
+         </div>
+
+
+         <div class="SignInOption">
+
+            <div id="logo"><img src="./Images/image.png" alt="Sign In" id="Photo"></div>
+          
+            <div class="op">
+            <a href="./Logsignin/signin.html" target="_blank" class="h2" >SignIn</a>
+            <a href="./Logsignin/login.html" class="h2" target="_blank">Login</a>
+           </div>
+           
+         </div>
+
+
+  </div>
+  
+  <!-- Choose Filter
+ Sort by Rating
+ High to Low (Price)
+ Cost: Low to High
+ Distance
+Apply Close -->
+
+<div class="filteroption"> 
+   
+   <h2>Choose Filter</h2>
+   <div class="First">
+      <input type="radio" id="first" name="filter"  class="trust">
+      <label for="first"> Sort by Rating</label> <br>   
+   </div>
+  <div class="Second">
+   <input type="radio" id="second" name="filter" class="trust">
+   <label for="second"> High to Low (Price)</label> <br>
+  </div>
+   <div class="Third">
+      <input type="radio" id="third" name="filter" class="trust">
+      <label for="third"> Cost: Low to High</label> <br>   
+   </div>
+  <div class="Fourth">
+   <input type="radio" id="fourth" name="filter" class="trust">
+   <label for="fourth"> Distance</label>
+  </div>
+  <div class="buttons">
+   <button id="applyFilter" class="batan">Apply</button>
+   <button id="closeFilter" class="batan">Close</button>
+  </div>
+  
+</div>
+
+  <div id="root">
+  </div>
+        <script src="./MainAPP.js"></script>
+</body>
+</html>
+
+

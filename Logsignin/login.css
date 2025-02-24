@@ -1,0 +1,101 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* align-items: center; */
+
+}
+.LoginDiv{
+    background-color: rgb(27, 131, 223);
+    width: 400px;
+    height: 500px;
+    margin-top: 40px;
+    border-radius: 10px;
+    
+
+}
+#title{
+    text-align: center;
+}
+.same{
+   border :2px solid black;
+   width: 100%;
+   height: 30px;
+   margin-top:6px ;
+   padding: 5px;
+}
+#Forgot{
+    padding-top:9px ;
+    padding-right: 6px;
+    float: right;
+}
+.first{
+    /* padding: 20px; */
+   padding-top: 20px;
+   padding-left: 20px;
+   padding-right: 20px;
+}
+#Forgot{
+    font-weight: bolder;
+    /* background-color: blueviolet; */
+}
+form{
+    background-color: white;
+    width: 90%;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 200px;
+    border-radius: 9px;
+    
+}
+#LoginButton{
+    clear: both;
+    background: linear-gradient(to right, rgb(26, 219, 219), rgb(226, 77, 242));
+    margin-top: 40px;
+    margin-bottom: 20px;
+    height: auto;
+    padding: 10px;
+    border-radius: 7px;
+    text-align: center;
+    border: 0.6px solid black;
+    font-weight: bolder;
+    font-size: 20px;
+    width: 100%;
+}
+#UsingGoogle{
+    /* background-color: mediumvioletred; */
+    text-align: center;
+}
+
+img{
+    height: 40px;
+    width: 60px;
+
+}
+#Not{
+    /* background-color: aqua; */
+    width: 100%;
+    text-align:center;
+}
+#UsingGoogle{
+    background: rgb(2,0,36);
+    background: linear-gradient(to right, rgb(40, 29, 248) 0%, rgba(0,212,255,1) );
+  /* border: 0.6px solid black; */
+
+}
+.signinPage{
+    background: linear-gradient(to right, rgb(63, 238, 238), rgb(146, 220, 10));
+    display: flex;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
